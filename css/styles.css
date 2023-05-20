@@ -566,8 +566,18 @@ footer .studio {
   width: 264px;
   height: 72px;
 }
-/*.page-footer .social-networks {
+
+.page-footer .social-media {
   display: flex;
+  flex-direction: column;
   width: 208px;
   height: 80px;
-}*/
+  margin-left: 120px;
+}
+.page-footer .footer-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.page-footer span {
+  margin-bottom: 16px;
+}
