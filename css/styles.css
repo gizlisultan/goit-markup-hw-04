@@ -493,7 +493,7 @@ h3 {
 }
 .custom-icon .custom-link:focus,
 .custom-icon .custom-link:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .custom-link .custom-svg {
   fill: currentColor;
@@ -534,6 +534,10 @@ button:focus {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+.filter .button-item {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .button {
   padding: 12px 24px;
   border: 1xp;
@@ -567,6 +571,14 @@ button:focus {
 /*.container .pic-item:not(:nth-child(n + 6)) {
   margin-bottom: 48px;*
 }*/
+.pic-item .link {
+  display: block;
+}
+.pic-item .link:hover,
+.pic-item .link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .pic-list .pic-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -637,7 +649,7 @@ footer .studio {
 .page-footer .media-paragraph {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-background-color);
   margin-bottom: 16px;
@@ -648,7 +660,10 @@ footer .studio {
   gap: 16px;
   width: 208px;
   height: 80px;
-  margin-left: 120px;
+  /*margin-left: 120px;*/
+}
+.page-footer .icon {
+  height: 40px;
 }
 .page-footer .icon-link {
   width: 100%;
