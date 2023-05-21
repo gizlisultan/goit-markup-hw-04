@@ -687,7 +687,7 @@ footer .studio {
   height: 40px;
   border-radius: 50%;
 }
-.page-footer .icon-link {
+.page-footer .icons-list {
   width: 100%;
   height: 100%;
   background-color: var(--accent);
@@ -696,9 +696,9 @@ footer .studio {
   align-items: center;
   justify-content: center;
 }
-.page-footer a .icon-link:hover,
-.page-footer a .icon-link:focus,
-.page-footer a .icon-link:active {
+.icons-list a:hover,
+.icons-list a:focus,
+.icons-list a:active {
   background-color: #31d0aa;
 }
 .page-footer .icon-svg {
