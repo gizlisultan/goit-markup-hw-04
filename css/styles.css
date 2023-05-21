@@ -422,7 +422,7 @@ h3 {
   border-radius: 50%;
   background-color: var(--accent);
 }
-.team-link:hover,
+.icon .team-link:hover,
 .team-link:focus {
   background-color: #404bbf;
 }
@@ -506,7 +506,7 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-.custom-link:focus,
+.customers-list .custom-link:focus,
 .custom-link:hover {
   color: #404bbf;
   border-color: #404bbf;
@@ -692,7 +692,7 @@ footer .studio {
   align-items: center;
   justify-content: center;
 }
-.icon-link:hover,
+.page-footer .icon-link:hover,
 .icon-link:focus {
   background-color: #31d0aa;
 }
