@@ -422,8 +422,11 @@ h3 {
   border-radius: 50%;
   background-color: var(--accent);
 }
-.icon .team-link:hover,
-.team-link:focus {
+.icon .team-link:hover {
+  background-color: #404bbf;
+}
+.icon .team-link:focus,
+.icon .team-link:active {
   background-color: #404bbf;
 }
 .team-link .icon-svg {
@@ -507,7 +510,8 @@ h3 {
   justify-content: center;
 }
 .customers-list .custom-link:focus,
-.custom-link:hover {
+.customers-list .custom-link:hover,
+.customers-list .custom-link:active {
   color: #404bbf;
   border-color: #404bbf;
 }
@@ -693,7 +697,8 @@ footer .studio {
   justify-content: center;
 }
 .page-footer .icon-link:hover,
-.icon-link:focus {
+.page-footer .icon-link:focus,
+.page-footer .icon-link:active {
   background-color: #31d0aa;
 }
 .page-footer .icon-svg {
