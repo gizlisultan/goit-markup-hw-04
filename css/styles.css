@@ -696,9 +696,9 @@ footer .studio {
   align-items: center;
   justify-content: center;
 }
-.page-footer .icon-link:hover,
-.page-footer .icon-link:focus,
-.page-footer .icon-link:active {
+.page-footer a .icon-link:hover,
+.page-footer a .icon-link:focus,
+.page-footer a .icon-link:active {
   background-color: #31d0aa;
 }
 .page-footer .icon-svg {
