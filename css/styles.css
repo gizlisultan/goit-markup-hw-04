@@ -486,11 +486,11 @@ h3 {
   line-height: 1.1;
   margin-bottom: 72px;
 }
-.customers .list {
+.customers-list {
   gap: 24px;
 }
 
-.customers .custom-link {
+.customers-list .custom-link {
   width: 100%;
   height: 100%;
   border: 1px solid;
@@ -501,8 +501,8 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-.custom-icon .custom-link:focus,
-.custom-icon .custom-link:hover {
+.custom-link .custom-link:focus,
+.custom-link .custom-link:hover {
   color: #404bbf;
   border-color: #404bbf;
 }
