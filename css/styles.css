@@ -501,7 +501,11 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-.custom-link .custom-link:focus,
+.custom-link .custom-link:focus {
+  color: #404bbf;
+  border-color: #404bbf;
+}
+
 .custom-link .custom-link:hover {
   color: #404bbf;
   border-color: #404bbf;
@@ -685,7 +689,9 @@ footer .studio {
   align-items: center;
   justify-content: center;
 }
-.page-footer .icon-link:hover,
+.page-footer .icon-link:hover {
+  background-color: #31d0aa;
+}
 .page-footer .icon-link:focus {
   background-color: #31d0aa;
 }
