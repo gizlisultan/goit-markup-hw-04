@@ -487,7 +487,12 @@ h3 {
   margin-bottom: 72px;
 }
 .customers-list {
+  display: flex;
   gap: 24px;
+}
+.customers-list .custom-icon {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
 }
 
 .customers-list .custom-link {
@@ -501,15 +506,12 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-.custom-link .custom-link:focus {
-  color: #404bbf;
-  border-color: #404bbf;
-}
-
+.custom-link .custom-link:focus,
 .custom-link .custom-link:hover {
   color: #404bbf;
   border-color: #404bbf;
 }
+
 .custom-link .custom-svg {
   fill: currentColor;
 }
@@ -690,7 +692,8 @@ footer .studio {
   align-items: center;
   justify-content: center;
 }
-.page-footer .icon-link:hover .page-footer .icon-link:focus {
+.page-footer .icon-link:hover,
+.page-footer .icon-link:focus {
   background-color: #31d0aa;
 }
 .page-footer .icon-svg {
