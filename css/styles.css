@@ -456,7 +456,7 @@ h3 {
   background-color: #ffffff;
 }
 .team-list .name {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .name .icons-list {
   margin: 0;
@@ -484,7 +484,7 @@ h3 {
 }
 .customers {
   text-align: center;
-  line-height: 1.1;
+  line-height: 1.11;
   margin-bottom: 72px;
 }
 .customers-list {
